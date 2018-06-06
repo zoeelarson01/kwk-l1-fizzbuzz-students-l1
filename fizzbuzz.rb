@@ -1,7 +1,7 @@
 puts "What number would you like?"
 
 number = gets.chomp
-
+def fizzbuzz(number)
 if #{number} % 3 == 0
   puts "Fizz"
 elsif #{number} % 5 == 0 
