@@ -22,6 +22,7 @@ def fizzbuzz
       puts "Fizzbuzz"
   else 
       puts "nil"
+  end
 end 
       
 fizzbuzz(6)
