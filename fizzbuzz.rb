@@ -12,3 +12,4 @@ def fizzbuzz(number)
    puts "nil"
   end
 end
+fizzbuzz(15)
