@@ -1,17 +1,17 @@
 
-def fizzbuzz(number)
-  if #{number} % 3 == 0
-    puts "Fizz"
-  elsif #{number} % 5 == 0 
-   puts  "Buzz"
-  elsif #{number} % 3 == 0 && #{number} % 5 == 0 
-   puts  "Fizzbuzz"
-  else 
-   puts "nil"
-  end
-end
+# def fizzbuzz(number)
+#   if #{number} % 3 == 0
+#     puts "Fizz"
+#   elsif #{number} % 5 == 0 
+#   puts  "Buzz"
+#   elsif #{number} % 3 == 0 && #{number} % 5 == 0 
+#   puts  "Fizzbuzz"
+#   else 
+#   puts "nil"
+#   end
+# end
 
-fizzbuzz(15)
+# fizzbuzz(15)
 
 def fizzbuzz
   if number % 3 == 0 
@@ -23,3 +23,5 @@ def fizzbuzz
       else 
         puts "nil"
       end 
+      
+fizzbuzz(6)
